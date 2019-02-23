@@ -1,0 +1,88 @@
+:root {
+    --color-1: #f2f1e7;
+    --color-2: #a96851;
+    --color-3: #915b4a;
+    --color-4: #5c4d4d;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Playball', cursive;
+    background-color: var(--color-2);
+}
+
+.main {
+    width: 100%;
+    display: flex;
+}
+
+.navbar {
+    background-color: var(--color-3);
+}
+
+.navbar a {
+    font-family: 'Playball', cursive;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--color-1);
+}
+
+.map {
+    height: 100vh;
+    width: 65%;
+}
+
+.control {
+    height: 100vh;
+    width: 35%;
+    padding: 1%;
+}
+
+.control-panel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectMenu {
+    width: 100%;
+    background-color: var(--color-1);
+    padding: 5%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px var(--color-4);
+}
+
+.selectMenu p {
+    margin: 0;
+}
+
+.selectMenu i {
+    color: var(--color-2);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.selectMenu-option {
+    margin: 1rem 0;
+}
+
+.selectMenu-option--buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.selectMenu .form-control {
+    width: 90%;
+    height: 1.5rem;
+}
+
+.displayMenu {
+    margin: 20px 0 0 0;
+}
